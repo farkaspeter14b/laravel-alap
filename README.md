@@ -216,7 +216,7 @@ install.bat projekt_neve
 ```
 
 **Windows - Power Shell**
-Az `install.ps` fájl tartalma:
+Az `install.ps1` fájl tartalma:
 
 ```powershell
 git clone https://github.com/rcsnjszg/laravel-alap.git $Args[0]
