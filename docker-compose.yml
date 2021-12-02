@@ -40,7 +40,6 @@ services:
         - webapp
   phpmyadmin:
     image: phpmyadmin
-    restart: always
     ports:
       - "${PORT_PHPMYADMIN}:80"
     environment:
